@@ -39,19 +39,20 @@ st.markdown("""
 </style>
 """, unsafe_allow_html=True)
 
-# 緩存數據加載
+# load_data 函數
 @st.cache_data
 def load_data():
     """載入所有數據"""
     try:
-        # 載入Power BI準備的數據
-        protocols = pd.read_csv("../Power_BI/powerbi_data/protocols_combined.csv")
-        prices = pd.read_csv("../Power_BI/powerbi_data/price_combined.csv")
-        key_metrics = pd.read_csv("../Power_BI/powerbi_data/key_metrics.csv")
-        analysis_results = pd.read_csv("../Power_BI/powerbi_data/analysis_results.csv")
+        # 使用絕對路徑
+        base_path = "/Users/amanda/Desktop/Sui_Ecosystem_Growth_Analysis/Power_BI/powerbi_data"
         
-        # 載入摘要信息
-        with open("../Power_BI/powerbi_data/powerbi_summary.json", 'r') as f:
+        protocols = pd.read_csv(f"{base_path}/protocols_combined.csv")
+        prices = pd.read_csv(f"{base_path}/price_combined.csv")
+        key_metrics = pd.read_csv(f"{base_path}/key_metrics.csv")
+        analysis_results = pd.read_csv(f"{base_path}/analysis_results.csv")
+        
+        with open(f"{base_path}/powerbi_summary.json", 'r') as f:
             summary = json.load(f)
         
         return protocols, prices, key_metrics, analysis_results, summary
@@ -264,7 +265,7 @@ def render_deep_analysis(protocols, key_metrics, analysis_results):
         color_discrete_map={'Sui': '#4A90E2', 'Aptos': '#7ED321'}
     )
     
-    fig.update_xaxis(tickangle=45)
+    fig.update_layout(xaxis_tickangle=45)
     st.plotly_chart(fig, use_container_width=True)
 
 def render_price_analysis(prices, analysis_results):
