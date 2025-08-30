@@ -1,0 +1,86 @@
+{
+  "analysis_date": "2025-08-22 12:56:40",
+  "summary": {
+    "sui_protocol_count": 81,
+    "aptos_protocol_count": 75,
+    "sui_total_tvl": 32919286968.60209,
+    "aptos_total_tvl": 109326036216.03415,
+    "sui_avg_tvl": 406410950.22965544,
+    "aptos_avg_tvl": 1457680482.8804553,
+    "sui_largest_protocol": "Gate",
+    "aptos_largest_protocol": "OKX"
+  },
+  "protocols": {
+    "sui_top_5": [
+      {
+        "name": "Gate",
+        "category": "CEX",
+        "tvl_usd": 8583488495.768843
+      },
+      {
+        "name": "HTX",
+        "category": "CEX",
+        "tvl_usd": 7192147393.60139
+      },
+      {
+        "name": "KuCoin",
+        "category": "CEX",
+        "tvl_usd": 5072438875.502863
+      },
+      {
+        "name": "Bitstamp",
+        "category": "CEX",
+        "tvl_usd": 3159889521.8932633
+      },
+      {
+        "name": "Portal",
+        "category": "Bridge",
+        "tvl_usd": 2810169203.273112
+      }
+    ],
+    "aptos_top_5": [
+      {
+        "name": "OKX",
+        "category": "CEX",
+        "tvl_usd": 28084176876.381107
+      },
+      {
+        "name": "Bitfinex",
+        "category": "CEX",
+        "tvl_usd": 27415796297.10329
+      },
+      {
+        "name": "Bybit",
+        "category": "CEX",
+        "tvl_usd": 23911535342.02556
+      },
+      {
+        "name": "Gate",
+        "category": "CEX",
+        "tvl_usd": 8583488495.768843
+      },
+      {
+        "name": "KuCoin",
+        "category": "CEX",
+        "tvl_usd": 5072438875.502863
+      }
+    ]
+  },
+  "prices": {
+    "7_days": {
+      "sui_return_pct": -7.1,
+      "aptos_return_pct": -4.48,
+      "sui_outperformance": -2.63
+    },
+    "30_days": {
+      "sui_return_pct": -7.62,
+      "aptos_return_pct": -7.42,
+      "sui_outperformance": -0.2
+    },
+    "90_days": {
+      "sui_return_pct": -4.81,
+      "aptos_return_pct": -16.28,
+      "sui_outperformance": 11.47
+    }
+  }
+}

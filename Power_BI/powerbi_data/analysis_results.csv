@@ -1,0 +1,9 @@
+analysis_type,metric,sui_value,aptos_value,sui_advantage,unit,winner
+Price Performance,7_days_return,-7.1,-4.5,-2.5999999999999996,percentage,Aptos
+Price Performance,30_days_return,-7.6,-7.4,-0.1999999999999993,percentage,Aptos
+Price Performance,90_days_return,-4.8,-16.3,11.5,percentage,Sui
+Valuation,mcap_to_tvl,0.49,0.06,0.43,ratio,Sui
+Valuation,valuation_premium,712.0,0.0,712.0,percentage,Sui
+Supply,circulation_ratio,35.0,59.0,-24.0,percentage,Aptos
+Ecosystem,protocol_count,77.0,68.0,9.0,count,Sui
+Ecosystem,ecosystem_score,56.6,70.5,-13.899999999999999,score,Aptos

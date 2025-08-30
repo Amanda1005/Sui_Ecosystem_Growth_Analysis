@@ -1,0 +1,177 @@
+{
+  "protocol_comparison": {
+    "category_comparison": {
+      "sui_categories": {
+        "Bridge": {
+          "total_tvl": 2833439089.0,
+          "protocol_count": 2,
+          "avg_tvl": 1416719544.0
+        },
+        "Derivatives": {
+          "total_tvl": 14439411.0,
+          "protocol_count": 6,
+          "avg_tvl": 2406569.0
+        },
+        "Launchpad": {
+          "total_tvl": 84.0,
+          "protocol_count": 1,
+          "avg_tvl": 84.0
+        },
+        "Lending": {
+          "total_tvl": 1381686864.0,
+          "protocol_count": 5,
+          "avg_tvl": 276337373.0
+        },
+        "Liquid Staking": {
+          "total_tvl": 613271263.0,
+          "protocol_count": 10,
+          "avg_tvl": 61327126.0
+        },
+        "Others": {
+          "total_tvl": 19468944720.0,
+          "protocol_count": 47,
+          "avg_tvl": 414232866.0
+        },
+        "Yield Farming": {
+          "total_tvl": 24017042.0,
+          "protocol_count": 6,
+          "avg_tvl": 4002840.0
+        }
+      },
+      "aptos_categories": {
+        "Bridge": {
+          "total_tvl": 2854897451.0,
+          "protocol_count": 2,
+          "avg_tvl": 1427448726.0
+        },
+        "Derivatives": {
+          "total_tvl": 5932497.0,
+          "protocol_count": 5,
+          "avg_tvl": 1186499.0
+        },
+        "Launchpad": {
+          "total_tvl": 479874.0,
+          "protocol_count": 3,
+          "avg_tvl": 159958.0
+        },
+        "Lending": {
+          "total_tvl": 651910529.0,
+          "protocol_count": 9,
+          "avg_tvl": 72434503.0
+        },
+        "Liquid Staking": {
+          "total_tvl": 364278424.0,
+          "protocol_count": 7,
+          "avg_tvl": 52039775.0
+        },
+        "Others": {
+          "total_tvl": 44855616901.0,
+          "protocol_count": 40,
+          "avg_tvl": 1121390423.0
+        },
+        "Yield Farming": {
+          "total_tvl": 13719827.0,
+          "protocol_count": 2,
+          "avg_tvl": 6859913.0
+        }
+      }
+    },
+    "size_distribution": {
+      "sui_distribution": {
+        "<$1M": 23,
+        "$10M-$100M": 21,
+        "$1M-$10M": 18,
+        "$100M-$1B": 10,
+        ">$1B": 5
+      },
+      "aptos_distribution": {
+        "<$1M": 28,
+        "$10M-$100M": 11,
+        "$100M-$1B": 11,
+        "$1M-$10M": 10,
+        ">$1B": 8
+      }
+    },
+    "growth_comparison": {
+      "sui_growth": {
+        "avg_7d_change": -4.3038120964679045,
+        "avg_30d_change": 0.0,
+        "positive_growth_7d": 15,
+        "negative_growth_7d": 57
+      },
+      "aptos_growth": {
+        "avg_7d_change": 3.201125477032504,
+        "avg_30d_change": 0.0,
+        "positive_growth_7d": 11,
+        "negative_growth_7d": 54
+      }
+    },
+    "concentration_analysis": {
+      "sui_concentration": {
+        "top_1_share": 29.5537761032587,
+        "top_5_share": 80.66024055141729,
+        "top_10_share": 92.73140324648095,
+        "herfindahl_index": 0.16761138627104147
+      },
+      "aptos_concentration": {
+        "top_1_share": 56.24118163743772,
+        "top_5_share": 85.62176935368385,
+        "top_10_share": 96.54823029912782,
+        "herfindahl_index": 0.3427504237879759
+      }
+    }
+  },
+  "price_comparison": {
+    "performance_metrics": {
+      "7_days": {
+        "sui_return": -8.817705303043082,
+        "aptos_return": -6.126586416282127,
+        "outperformance": -2.6911188867609557
+      },
+      "30_days": {
+        "sui_return": -7.2896262658012345,
+        "aptos_return": -3.8869159605702386,
+        "outperformance": -3.402710305230996
+      },
+      "90_days": {
+        "sui_return": -4.032655042810474,
+        "aptos_return": -15.344052681982584,
+        "outperformance": 11.31139763917211
+      },
+      "180_days": {
+        "sui_return": 21.582985715523346,
+        "aptos_return": -17.492113397845188,
+        "outperformance": 39.07509911336854
+      }
+    },
+    "risk_metrics": {
+      "volatility_30d": {
+        "sui": 0.04445125265641438,
+        "aptos": 0.03554390192516412
+      },
+      "max_drawdown": {
+        "sui": 63.75874767372925,
+        "aptos": 73.29737651066797
+      }
+    },
+    "correlation_analysis": {
+      "daily_correlation": 0.6418031431280322,
+      "correlation_strength": "Medium"
+    }
+  },
+  "ecosystem_scores": {
+    "sui_scores": {
+      "tvl_score": 49.922827240560814,
+      "diversity_score": 77.0,
+      "growth_score": 45.190853833517934,
+      "overall_score": 56.6263870462797
+    },
+    "aptos_scores": {
+      "tvl_score": 100.0,
+      "diversity_score": 68.0,
+      "growth_score": 33.71728681653523,
+      "overall_score": 70.51518604496057
+    }
+  },
+  "analysis_date": "2025-08-22 13:13:29"
+}

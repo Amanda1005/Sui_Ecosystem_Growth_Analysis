@@ -1,0 +1,154 @@
+{
+  "analysis_metadata": {
+    "analysis_type": "Investment Value Paradox Analysis",
+    "analysis_date": "2025-08-22 13:34:56",
+    "core_question": "Why does Aptos score higher (70.5 vs 56.6) but SUI performs better in price?"
+  },
+  "valuation_metrics": {
+    "sui": {
+      "current_price": 3.4433381868147284,
+      "market_cap": 12092333560.996592,
+      "total_tvl": 24335798472.833252,
+      "mcap_to_tvl_ratio": 0.4968948758552389,
+      "protocol_count": 77,
+      "avg_protocol_tvl": 316049330.81601626,
+      "tvl_per_billion_mcap": 2012498112.9636993
+    },
+    "aptos": {
+      "current_price": 4.448931173028656,
+      "market_cap": 3050933854.7903433,
+      "total_tvl": 48746835501.858635,
+      "mcap_to_tvl_ratio": 0.06258732127696814,
+      "protocol_count": 68,
+      "avg_protocol_tvl": 716865227.9685093,
+      "tvl_per_billion_mcap": 15977676941.543678
+    },
+    "relative": {
+      "sui_mcap_premium": 693.922580032346,
+      "tvl_efficiency_ratio": 0.1259568659653512,
+      "protocol_efficiency": 0.4408769158906669
+    }
+  },
+  "performance_analysis": {
+    "7d": {
+      "sui_return": -7.104546095910854,
+      "aptos_return": -4.477438373125046,
+      "sui_outperformance": -2.6271077227858086,
+      "sui_volatility": 0.7004981132213249,
+      "aptos_volatility": 0.7305269912603012,
+      "sui_sharpe": -0.10142134520876499,
+      "aptos_sharpe": -0.06129052624599939,
+      "sharpe_advantage": -0.040130818962765595
+    },
+    "30d": {
+      "sui_return": -7.621393458665448,
+      "aptos_return": -7.424087200033734,
+      "sui_outperformance": -0.19730625863171447,
+      "sui_volatility": 0.8492399895756192,
+      "aptos_volatility": 0.6790652927988394,
+      "sui_sharpe": -0.08974369497689337,
+      "aptos_sharpe": -0.10932803191037158,
+      "sharpe_advantage": 0.019584336933478205
+    },
+    "90d": {
+      "sui_return": -4.809146166482068,
+      "aptos_return": -16.28271318346477,
+      "sui_outperformance": 11.473567016982702,
+      "sui_volatility": 0.9152756650655111,
+      "aptos_volatility": 0.7546330672825126,
+      "sui_sharpe": -0.05254314465071954,
+      "aptos_sharpe": -0.2157699402452636,
+      "sharpe_advantage": 0.16322679559454406
+    },
+    "180d": {
+      "sui_return": 1.9767013381378546,
+      "aptos_return": -27.384789562525796,
+      "sui_outperformance": 29.36149090066365,
+      "sui_volatility": 1.0839789545434293,
+      "aptos_volatility": 0.8424483346380583,
+      "sui_sharpe": 0.018235606234352022,
+      "aptos_sharpe": -0.32506194666870747,
+      "sharpe_advantage": 0.34329755290305947
+    }
+  },
+  "fundamental_analysis": {
+    "fundamental_scores": {
+      "sui_score": 56.6263870462797,
+      "aptos_score": 70.51518604496057,
+      "aptos_advantage": 13.888798998680869
+    },
+    "valuation_scores": {
+      "sui": {
+        "current_price": 3.4433381868147284,
+        "market_cap": 12092333560.996592,
+        "total_tvl": 24335798472.833252,
+        "mcap_to_tvl_ratio": 0.4968948758552389,
+        "protocol_count": 77,
+        "avg_protocol_tvl": 316049330.81601626,
+        "tvl_per_billion_mcap": 2012498112.9636993
+      },
+      "aptos": {
+        "current_price": 4.448931173028656,
+        "market_cap": 3050933854.7903433,
+        "total_tvl": 48746835501.858635,
+        "mcap_to_tvl_ratio": 0.06258732127696814,
+        "protocol_count": 68,
+        "avg_protocol_tvl": 716865227.9685093,
+        "tvl_per_billion_mcap": 15977676941.543678
+      },
+      "relative": {
+        "sui_mcap_premium": 693.922580032346,
+        "tvl_efficiency_ratio": 0.1259568659653512,
+        "protocol_efficiency": 0.4408769158906669
+      }
+    },
+    "disconnect_analysis": {
+      "fundamental_advantage_aptos": 13.888798998680869,
+      "market_valuation_gap": 0.43430755457827075,
+      "disconnect_severity": 13.4544914441026,
+      "interpretation": "Aligned: Both fundamentals and market favor Aptos"
+    }
+  },
+  "investment_opportunities": {
+    "value_opportunities": {
+      "tvl_vs_mcap_analysis": {
+        "sui_tvl_efficiency": 2012498112.9636993,
+        "aptos_tvl_efficiency": 15977676941.543678,
+        "efficiency_ratio": 0.1259568659653512,
+        "interpretation": "Aptos more TVL-efficient"
+      },
+      "growth_vs_valuation": {
+        "sui_90d_performance": -4.809146166482068,
+        "aptos_90d_performance": -16.28271318346477,
+        "performance_gap": 11.473567016982702,
+        "valuation_justification": "Performance and valuation relatively aligned"
+      }
+    },
+    "risk_assessment": {
+      "volatility_comparison": {
+        "sui_30d_vol": 0.8492399895756192,
+        "aptos_30d_vol": 0.6790652927988394,
+        "risk_adjusted_preference": "Sui"
+      },
+      "concentration_risk": {
+        "sui_protocol_diversity": 7,
+        "aptos_protocol_diversity": 7,
+        "diversification_advantage": "Sui"
+      }
+    },
+    "investment_recommendation": {
+      "sui_investment_score": 4.705882352941177,
+      "aptos_investment_score": 5.294117647058823,
+      "recommendation": "Moderate Buy APT",
+      "rationale": "Fundamental strength outweighs recent underperformance",
+      "confidence_level": "Medium",
+      "time_horizon": "3-6 months",
+      "key_risks": [
+        "Market volatility in crypto sector",
+        "Regulatory changes affecting DeFi",
+        "Competition from other L1 blockchains",
+        "Technical risks in smart contracts"
+      ]
+    }
+  }
+}

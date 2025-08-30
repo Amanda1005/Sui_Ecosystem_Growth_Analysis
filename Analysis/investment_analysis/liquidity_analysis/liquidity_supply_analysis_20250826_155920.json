@@ -1,0 +1,144 @@
+{
+  "analysis_date": "2025-08-26 15:59:20",
+  "supply_metrics": {
+    "sui": {
+      "circulating_supply": 3511924479.569998,
+      "total_supply": 10000000000.0,
+      "max_supply": 10000000000.0,
+      "circulation_ratio": 0.3511924479569998,
+      "supply_overhang": 0.6488075520430002,
+      "market_cap": 12040660241,
+      "fdv": 34285077344,
+      "mcap_fdv_ratio": 0.3511924479618289,
+      "price": 3.43
+    },
+    "aptos": {
+      "circulating_supply": 686419565.3106742,
+      "total_supply": 1171886949.269277,
+      "max_supply": null,
+      "circulation_ratio": 0.5857387231240069,
+      "supply_overhang": 0.4142612768759931,
+      "market_cap": 2971662109,
+      "fdv": 5073357782,
+      "mcap_fdv_ratio": 0.5857387230885425,
+      "price": 4.33
+    }
+  },
+  "efficiency_analysis": {
+    "sui": {
+      "tvl": 24335798472.833252,
+      "market_cap": 12040660241,
+      "fdv": 34285077344,
+      "mcap_to_tvl": 0.4947715298695185,
+      "fdv_to_tvl": 1.4088330564650842,
+      "tvl_per_token_circulating": 6.9294765916529455,
+      "tvl_per_token_total": 2.433579847283325,
+      "price_to_tvl_per_token": 0.49498688026909315
+    },
+    "aptos": {
+      "tvl": 48746835501.858635,
+      "market_cap": 2971662109,
+      "fdv": 5073357782,
+      "mcap_to_tvl": 0.06096112862314305,
+      "fdv_to_tvl": 0.10407563341843105,
+      "tvl_per_token_circulating": 71.01609273010126,
+      "tvl_per_token_total": 41.59687547698558,
+      "price_to_tvl_per_token": 0.06097209566930543
+    },
+    "comparison": {
+      "sui_mcap_premium": 711.6180606303365,
+      "sui_fdv_premium": 1253.6627260301543,
+      "tvl_efficiency_ratio": 0.0975761454236665,
+      "valuation_explanation": "SUI市值/TVL比率高出APT 8.1倍，顯示嚴重估值溢價"
+    }
+  },
+  "liquidity_metrics": {
+    "sui": {
+      "total_volume_24h": 335357025.88537276,
+      "avg_spread": 0.013842249999999997,
+      "exchange_count": 20,
+      "top_exchanges": [
+        "CoinUp.io",
+        "Toobit",
+        "KuCoin",
+        "Bit2Me",
+        "MEXC",
+        "Biconomy.com",
+        "HTX",
+        "Gate",
+        "Coinbase Exchange",
+        "CoinW"
+      ],
+      "volume_distribution": {
+        "top_1": 66810001.0,
+        "top_3": 130989373.25689772,
+        "concentration_ratio": 0.19922051975388194
+      }
+    },
+    "aptos": {
+      "total_volume_24h": 101839491.4368732,
+      "avg_spread": 0.03656315,
+      "exchange_count": 19,
+      "top_exchanges": [
+        "CoinUp.io",
+        "Toobit",
+        "KuCoin",
+        "Biconomy.com",
+        "MEXC",
+        "Gate",
+        "BTSE",
+        "BitKan",
+        "CoinW",
+        "LBank"
+      ],
+      "volume_distribution": {
+        "top_1": 70300654.396,
+        "top_3": 82235072.446,
+        "concentration_ratio": 0.6903083804142616
+      }
+    }
+  },
+  "inflation_analysis": {
+    "sui": {
+      "potential_dilution": 1.8474416400959757,
+      "supply_overhang": 0.6488075520430002,
+      "mcap_fdv_ratio": 0.3511924479618289,
+      "inflation_risk_level": "High",
+      "price_impact_estimate": -0.6488075520430002
+    },
+    "aptos": {
+      "potential_dilution": 0.7072458427651023,
+      "supply_overhang": 0.4142612768759931,
+      "mcap_fdv_ratio": 0.5857387230885425,
+      "inflation_risk_level": "Medium",
+      "price_impact_estimate": -0.4142612768759931
+    }
+  },
+  "investment_implications": {
+    "valuation_conclusion": {
+      "main_finding": "SUI市值/TVL溢價712%",
+      "explanation": "SUI市值/TVL比率高出APT 8.1倍，顯示嚴重估值溢價",
+      "fair_value_assessment": "SUI可能被高估50-70%",
+      "valuation_justification": [
+        "供應通脹風險差異 (SUI: 1.8, APT: 0.7)",
+        "APT單位代幣創造更多TVL價值"
+      ]
+    },
+    "liquidity_assessment": {
+      "sui_liquidity_advantage": true,
+      "spread_comparison": "SUI平均價差: 0.01%, APT: 0.04%",
+      "liquidity_premium_justified": true
+    },
+    "risk_factors": {
+      "sui_dilution_risk": "High",
+      "aptos_dilution_risk": "Medium",
+      "valuation_sustainability": "Low"
+    },
+    "investment_recommendation": {
+      "recommendation": "Hold SUI, Cautious on APT",
+      "rationale": "SUI溢價可能有其合理性",
+      "confidence": "High",
+      "key_risk": "估值差異可能持續，市場可能長期失效"
+    }
+  }
+}

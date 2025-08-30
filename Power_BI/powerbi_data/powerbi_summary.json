@@ -1,0 +1,31 @@
+{
+  "project_info": {
+    "title": "Sui vs Aptos Investment Analysis",
+    "subtitle": "Market Inefficiency: APT Trading at 712% Discount",
+    "analysis_date": "2025-08-30",
+    "data_period": "365 Days",
+    "analyst": "Amanda - Data Science Portfolio"
+  },
+  "key_findings": [
+    "APT creates 10x more TVL per token than SUI",
+    "SUI trades at 712% premium to APT on TVL basis",
+    "APT has 2x total TVL but 1/4 market cap of SUI",
+    "SUI has 65% token supply locked vs APT 41%",
+    "APT scored higher on ecosystem fundamentals (70.5 vs 56.6)"
+  ],
+  "investment_thesis": {
+    "recommendation": "Strong Buy APT, Reduce SUI",
+    "rationale": "Massive valuation inefficiency with APT fundamentally superior",
+    "confidence": "High",
+    "time_horizon": "3-6 months"
+  },
+  "data_quality": {
+    "protocols_analyzed": 145,
+    "days_of_price_data": 366,
+    "data_sources": [
+      "DefiLlama",
+      "CoinGecko"
+    ],
+    "last_updated": "2025-08-30 16:41:45"
+  }
+}
