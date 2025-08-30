@@ -43,6 +43,7 @@ st.markdown("""
 </style>
 """, unsafe_allow_html=True)
 
+
 @st.cache_data
 def load_data():
     """從 Power_BI/powerbi_data 讀取資料（從 app.py 往上找）"""
