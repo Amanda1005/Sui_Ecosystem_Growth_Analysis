@@ -8,6 +8,10 @@ from plotly.subplots import make_subplots
 import json
 from datetime import datetime
 import numpy as np
+from pathlib import Path
+import pandas as pd
+import json
+import streamlit as st
 
 # 頁面配置
 st.set_page_config(
@@ -39,25 +43,24 @@ st.markdown("""
 </style>
 """, unsafe_allow_html=True)
 
-# load_data 函數
 @st.cache_data
 def load_data():
-    """載入所有數據"""
+    """從 Power_BI/powerbi_data 讀取資料（從 app.py 往上找）"""
     try:
-        # 使用絕對路徑
-        base_path = "/Users/amanda/Desktop/Sui_Ecosystem_Growth_Analysis/Power_BI/powerbi_data"
-        
-        protocols = pd.read_csv(f"{base_path}/protocols_combined.csv")
-        prices = pd.read_csv(f"{base_path}/price_combined.csv")
-        key_metrics = pd.read_csv(f"{base_path}/key_metrics.csv")
-        analysis_results = pd.read_csv(f"{base_path}/analysis_results.csv")
-        
-        with open(f"{base_path}/powerbi_summary.json", 'r') as f:
+        # 這裡才是關鍵：從 app.py 的位置往上跳一層，再進入 Power_BI/powerbi_data
+        base_path = Path(__file__).resolve().parent.parent / "Power_BI" / "powerbi_data"
+
+        protocols = pd.read_csv(base_path / "protocols_combined.csv")
+        prices = pd.read_csv(base_path / "price_combined.csv")
+        key_metrics = pd.read_csv(base_path / "key_metrics.csv")
+        analysis_results = pd.read_csv(base_path / "analysis_results.csv")
+
+        with open(base_path / "powerbi_summary.json", 'r') as f:
             summary = json.load(f)
-        
+
         return protocols, prices, key_metrics, analysis_results, summary
     except Exception as e:
-        st.error(f"數據載入失敗: {e}")
+        st.error(f"❌ 數據載入失敗: {e}")
         return None, None, None, None, None
 
 def main():
